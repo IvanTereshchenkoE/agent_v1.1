@@ -1,0 +1,106 @@
+@import url("./accets/styles/index.scss");
+@import url("./accets/styles/oldfromresurces/3.8be9d81b.chunk.css");
+@import url("./accets/styles/oldfromresurces/44.c9a33039.chunk.css");
+// @import url("./accets/styles/oldfromresurces/css?family=Open+Sans:400\,600\,700&display=swap.css");
+@import url("./accets/styles/oldfromresurces/import.css");
+@import url("./accets/styles/oldfromresurces/main.db5973fb.chunk.css");
+@import url("./accets/styles/oldfromresurces/style.css");
+@import url('./accets/styles/stylesRecurces/0.d19e079b.chunk.css');
+@import url('./accets/styles/stylesRecurces/1.aa009c1e.chunk.css');
+@import url('./accets/styles/stylesRecurces/11.9e524271.chunk.css');
+@import url('./accets/styles/stylesRecurces/15.b33b608d.chunk.css');
+@import url('./accets/styles/stylesRecurces/25.7c6b41a4.chunk.css');
+@import url('./accets/styles/stylesRecurces/3.1ab49ffb.chunk.css');
+@import url('./accets/styles/stylesRecurces/44.e623631a.chunk.css');
+@import url('./accets/styles/stylesRecurces/elements.scss');
+@import url('./accets/styles/stylesRecurces/index.scss');
+@import url('./accets/styles/stylesRecurces/main.e192dec0.chunk.css');
+@import url('./accets/styles/stylesRecurces/mixinsAndFunctions.scss');
+@import url('./accets/styles/stylesRecurces/style.css');
+@import url('./accets/styles/stylesRecurces/style.scss');
+
+:root {
+  --font-family: "Open Sans", "Arial", "Helvetica Neue", sans-serif;
+  --hero: #1473e6;
+  --confirm: #2bc784;
+  --warning: #e6af57;
+  --danger: #e64e48;
+  --note: #fdc625;
+  --message: #8bd779;
+  --background: #fff;
+  --foreground: #3d3d5f;
+  --hero-hover: #1267cf;
+  --hero-sc: #fff;
+  --hero-rgb: 20, 115, 230;
+  --hero-sc-rgb: 255, 255, 255;
+  --confirm-hover: #26b276;
+  --confirm-sc: #fff;
+  --confirm-rgb: 43, 199, 132;
+  --confirm-sc-rgb: 255, 255, 255;
+  --warning-hover: #e3a441;
+  --warning-sc: #fff;
+  --warning-rgb: 230, 175, 87;
+  --warning-sc-rgb: 255, 255, 255;
+  --danger-hover: #e33832;
+  --danger-sc: #fff;
+  --danger-rgb: 230, 78, 72;
+  --danger-sc-rgb: 255, 255, 255;
+  --note-hover: #fdbf0c;
+  --note-sc: #000;
+  --note-rgb: 253, 198, 37;
+  --note-sc-rgb: 0, 0, 0;
+  --message-hover: #7ad165;
+  --message-sc: #000;
+  --message-rgb: 139, 215, 121;
+  --message-sc-rgb: 0, 0, 0;
+  --background-hover: #f2f2f2;
+  --background-sc: #000;
+  --background-rgb: 255, 255, 255;
+  --background-sc-rgb: 0, 0, 0;
+  --foreground-hover: #33334f;
+  --foreground-sc: #fff;
+  --foreground-rgb: 61, 61, 95;
+  --foreground-sc-rgb: 255, 255, 255;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-tap-highlight-color: transparent;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: top;
+}
+
+.agent-sign-back {
+  background-image: url("./accets/images/png/back-ground-auth.png");
+}
+
+html {
+  font: 12px/1.15 var(--font-family);
+}
+
+body {
+  font-size: 1.4rem;
+}
+
+.input-holder {
+  --input-message-padding-side: 2rem;
+  --input-element-padding-side: 0.5rem;
+  --input-element-height: 3.6rem;
+  --textarea-height: 21.5rem;
+  --number-actions-holder-padding: 0 0.5rem;
+  --swap-label-color: inherit;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 100%;
+  position: relative;
+  transition: opacity 0.3s;
+  -webkit-user-select: none;
+  user-select: none;
+}
